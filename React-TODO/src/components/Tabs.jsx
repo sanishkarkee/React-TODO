@@ -15,7 +15,7 @@ const Tabs = (props) => {
           tab === 'All'
             ? todos.length
             : tab === 'Open'
-            ? todos.filter((val) => !val.complete).length //va/.complete = gives true/false, yesle complete=false bhayeko value haru new  array ma store garxa
+            ? todos.filter((val) => !val.complete).length //val.complete = gives true/false, yesle complete=false bhayeko value haru new  array ma store garxa
             : todos.filter((val) => val.complete).length;
 
         return (

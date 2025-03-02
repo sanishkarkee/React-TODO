@@ -5,7 +5,7 @@ import React from 'react';
 const TodoCard = (props) => {
   // destrucutre ko "todos" ma already tabs anusar ko data filter bhayera aaisakeko xa
   const { todo } = props;
-  console.log(todo);
+  // console.log(todo);
 
   return (
     <>
